@@ -4,3 +4,9 @@ def introduceNancy():
 def introduceEric():
 	print "Hi! I'm Eric."
 
+def main():
+    introduceNancy()
+    introduceEric()
+
+if __name__ == "__main__":
+    main()
